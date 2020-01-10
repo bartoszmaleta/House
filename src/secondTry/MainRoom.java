@@ -12,5 +12,10 @@ public class MainRoom {
         Lamp lamp = new Lamp("Retro", false, 75);
 
         Bedroom bedroom = new Bedroom("Bartosz's bedroom", wall1, wall2, wall3, wall4, ceiling, bed, lamp);
+
+        bedroom.makeBed();
+
+        bedroom.getLamp().turnOn();
+
     }
 }
