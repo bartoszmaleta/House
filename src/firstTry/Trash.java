@@ -15,11 +15,16 @@ public class Trash {
         System.out.println("I am throwing " + trash + " to the trash");
     }
 
-    public void emptyTrash() {
-        takeOutTheTrash();
+    // public void emptyTrash() {
+    //     takeOutTheTrash();
+    // }
+
+    public void takeOutTheTrash() {
+        System.out.println("Go out and take out the trash");
+        goOutAndThrowTrashToTheBin();
     }
 
-    private void takeOutTheTrash() {
-        System.out.println("Go out and take out the trash");
+    private void goOutAndThrowTrashToTheBin() {
+        System.out.println("Going out and throwing trash to the bin.");
     }
 }
